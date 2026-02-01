@@ -4,7 +4,7 @@ description: >-
   ecosystem projects, and working groups.
 
 favicon: assets/img/favicon.png
-primary_logo: other/pytorch-foundation/logo/color/pytorch-foundation-logo.svg
+primary_logo: 
 header_logo: other/pytorch-foundation/logo/color/pytorch-foundation-logo.svg
 github_repo: https://github.com/pytorch-fdn/artwork
 section_image: assets/img/pytorch_bg.jpg
