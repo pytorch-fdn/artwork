@@ -5,7 +5,7 @@ description: >-
 
 favicon: assets/img/favicon.png
 primary_logo: 
-header_logo: other/pytorch-foundation/logo/color/pytorch-foundation-logo.svg
+header_logo: other/pytorch-foundation/logo/color/pytorch.svg
 github_repo: https://github.com/pytorch-fdn/artwork
 section_image: assets/img/pytorch_bg.jpg
 theme_color_1: DE3412
