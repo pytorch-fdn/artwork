@@ -3,7 +3,7 @@ description: >-
   Logos and branding assets for the PyTorch Foundation, its foundation-hosted projects,
   ecosystem projects, and working groups.
 
-favicon: assets/img/favicon.png
+favicon: /assets/img/favicon.png
 primary_logo: other/pytorch-foundation/logo/color/pytorch-foundation-logo.svg
 header_logo: other/pytorch-foundation/logo/white/pytorch-foundation-logo-white.svg
 github_repo: https://github.com/pytorch-fdn/artwork
