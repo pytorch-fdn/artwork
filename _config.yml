@@ -11,7 +11,6 @@ section_image: assets/img/pytorch_bg.jpg
 theme_color_1: DE3412
 theme_color_2: F05F42
 
-custom_css: assets/css/custom.css
 
 logo_categories:
   - Foundation-hosted Projects
