@@ -1,0 +1,5 @@
+/* Reduce header logo size */
+.site-header img {
+  max-height: 48px;
+  width: auto;
+}
