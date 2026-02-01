@@ -1,6 +1,4 @@
 ---
-layout: home
-title: PyTorch Foundation Artwork
+layout: index
+permalink: /
 ---
-
-Official logos and branding assets for the PyTorch Foundation, its foundation-hosted projects, ecosystem projects, and working groups.
