@@ -1,26 +1,2 @@
 title: PyTorch Foundation Artwork
-description: >-
-  Logos and branding assets for the PyTorch Foundation, its foundation-hosted projects,
-  ecosystem projects, and working groups.
-
-favicon: assets/img/favicon.png
-primary_logo: 
-header_logo: other/pytorch-foundation/logo/color/pytorch.svg
-github_repo: https://github.com/pytorch-fdn/artwork
-section_image: assets/img/pytorch_bg.jpg
-theme_color_1: DE3412
-theme_color_2: F05F42
-
-
-logo_categories:
-  - Foundation-hosted Projects
-  - Ecosystem Projects
-  - Working Groups
-  - Other Logos
-
-readme_index:
-  with_frontmatter: true
-
-plugins:
-  - jekyll-remote-theme
-remote_theme: jmertic/artwork-template
+description: Logos and branding assets for the PyTorch Foundation.
