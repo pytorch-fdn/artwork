@@ -1,11 +1,11 @@
 :root {
-  --text: #111111;
-  --muted: #5f6368;
-  --border: #e5e7eb;
   --bg: #ffffff;
+  --text: #111111;
+  --muted: #555b61;
+  --border: #e7e7e7;
   --accent: #de3412;
-  --accent-light: #f05f42;
-  --max-width: 1100px;
+  --accent-soft: #fff3ef;
+  --max-width: 1120px;
 }
 
 * {
@@ -18,9 +18,10 @@ html {
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  color: var(--text);
   background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
 }
 
 img {
@@ -28,101 +29,114 @@ img {
   max-width: 100%;
 }
 
+a {
+  color: inherit;
+}
+
 .container {
-  width: min(var(--max-width), calc(100% - 32px));
+  width: min(var(--max-width), calc(100% - 40px));
   margin: 0 auto;
 }
 
-.site-header {
-  background: #ffffff;
+.page-header {
+  border-top: 6px solid var(--accent);
   border-bottom: 1px solid var(--border);
-  padding: 24px 0 40px;
+  background:
+    linear-gradient(to bottom, var(--accent-soft), #ffffff 120px);
 }
 
-.topbar {
+.header-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
-  margin-bottom: 32px;
+  gap: 24px;
+  padding-top: 28px;
+  margin-bottom: 28px;
 }
 
-.site-logo {
-  width: 220px;
+.brand-logo {
+  width: 210px;
   max-width: 100%;
   height: auto;
 }
 
 .github-link {
-  display: inline-block;
-  padding: 10px 14px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
   text-decoration: none;
+  font-size: 0.98rem;
   font-weight: 600;
-  color: var(--text);
-  background: #ffffff;
-  transition: 0.2s ease;
+  color: var(--accent);
+  white-space: nowrap;
 }
 
 .github-link:hover {
-  color: var(--accent);
-  border-color: var(--accent);
+  text-decoration: underline;
 }
 
-.header-copy h1 {
-  margin: 0 0 16px;
-  font-size: clamp(2rem, 4vw, 3rem);
-  line-height: 1.08;
+.header-main {
+  padding-bottom: 36px;
 }
 
-.intro {
-  margin: 0 0 12px;
-  max-width: 760px;
-  font-size: 1.05rem;
+.header-main h1 {
+  margin: 0 0 18px;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+}
+
+.lead {
+  margin: 0 0 14px;
+  max-width: 820px;
+  font-size: 1.15rem;
   line-height: 1.65;
   color: var(--text);
 }
 
-.meta {
+.policy-text {
   margin: 0;
-  max-width: 760px;
-  font-size: 0.98rem;
-  line-height: 1.65;
+  max-width: 820px;
+  font-size: 1rem;
+  line-height: 1.7;
   color: var(--muted);
 }
 
-.placeholder-section {
-  padding: 40px 0 80px;
+.section-block {
+  padding: 36px 0 72px;
 }
 
-.placeholder-section h2 {
+.section-block h2 {
   margin: 0 0 12px;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  line-height: 1.2;
 }
 
-.placeholder-section p {
+.section-note {
   margin: 0;
   color: var(--muted);
-  line-height: 1.6;
+  font-size: 1rem;
 }
 
-@media (max-width: 700px) {
-  .site-header {
-    padding: 20px 0 32px;
+@media (max-width: 760px) {
+  .container {
+    width: min(var(--max-width), calc(100% - 24px));
   }
 
-  .topbar {
+  .header-top {
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 24px;
+    gap: 16px;
+    padding-top: 22px;
+    margin-bottom: 20px;
   }
 
-  .site-logo {
+  .brand-logo {
     width: 180px;
   }
 
-  .header-copy h1 {
-    font-size: 2.2rem;
+  .header-main {
+    padding-bottom: 28px;
+  }
+
+  .lead {
+    font-size: 1.05rem;
   }
 }
