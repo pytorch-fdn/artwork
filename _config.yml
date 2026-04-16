@@ -16,9 +16,35 @@ logo_categories:
   - Ecosystem Projects
   - Working Groups
   - Other Logos
+  
+defaults:
+  - scope:
+      path: "other"
+      type: "pages"
+    values:
+      layout: "logos"
+      level: "Other Logos"
 
-readme_index:
-  with_frontmatter: true
+  - scope:
+      path: "projects/foundation-hosted"
+      type: "pages"
+    values:
+      layout: "logos"
+      level: "Foundation-hosted Projects"
+
+  - scope:
+      path: "projects/ecosystem"
+      type: "pages"
+    values:
+      layout: "logos"
+      level: "Ecosystem Projects"
+
+  - scope:
+      path: "working-groups"
+      type: "pages"
+    values:
+      layout: "logos"
+      level: "Working Groups"
 
 plugins:
   - jekyll-remote-theme
