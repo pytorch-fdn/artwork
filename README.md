@@ -6,7 +6,7 @@ With most modern browsers, you can right-click and copy the logo of your choice 
 
 Use of the PyTorch Foundation name, logos, and related marks is subject to the trademark terms and usage guidelines described in [LICENSE.md](LICENSE.md). Unauthorized or improper use of these marks is prohibited.
 
-For visual identity guidance, refer to the **PyTorch Brand Book** included in this repository.
+For visual identity guidance, refer to the [PyTorch Brand Book (PDF)](https://github.com/pytorch-fdn/artwork/blob/main/pytorch_brand__book_web.pdf).
 
 Questions regarding usage of these assets should be directed to  
 **[ops@pytorch.org](mailto:ops@pytorch.org)**.
