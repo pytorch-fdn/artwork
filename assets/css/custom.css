@@ -1,0 +1,50 @@
+.project-logo-section {
+  margin-top: 40px;
+}
+
+.logo-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.logo-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 24px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.logo-card img {
+  max-width: 150px;
+  max-height: 70px;
+  width: auto;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.logo-card h3 {
+  margin: 12px 0;
+}
+
+.logo-card a {
+  display: inline-block;
+  margin-top: 8px;
+  color: #DE3412;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.logo-card a:hover {
+  text-decoration: underline;
+}
+
+.logo-placeholder {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
