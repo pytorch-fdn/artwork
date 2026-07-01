@@ -1,7 +1,5 @@
 # PyTorch Foundation Logo
 
-The horizontal version of the PyTorch Foundation logo is preferred whenever space allows.
-
 **Tip:** Click any PNG or SVG preview to open the full-resolution asset. EPS files are available via the download links.
 
 ## Logo Assets
