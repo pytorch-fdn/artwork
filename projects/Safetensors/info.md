@@ -26,8 +26,8 @@ Official logo assets for Safetensors.
   <tr>
     <td>SVG</td>
     <td align="center">
-      <a href="./safetensors%20.svg">
-        <img src="./safetensor.svg" width="240" alt="Safetensors SVG Logo">
+      <a href="./safetensors.svg">
+        <img src="./safetensors.svg" width="240" alt="Safetensors SVG Logo">
       </a>
     </td>
     <td align="center">
