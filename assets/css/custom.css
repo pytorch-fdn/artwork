@@ -188,3 +188,38 @@ a:hover {
 .site-footer p {
   margin: 0 0 10px 0;
 }
+.logo-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.logo-card .logo-download-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px 14px;
+  border: 1px solid #d92f0b;
+  border-radius: 6px;
+  background: #fff;
+  color: #d92f0b;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.logo-card .logo-download-button:hover {
+  background: #d92f0b;
+  color: #fff;
+}
+
+.logo-card .logo-download-button:focus-visible {
+  outline: 3px solid #005fcc;
+  outline-offset: 3px;
+}
